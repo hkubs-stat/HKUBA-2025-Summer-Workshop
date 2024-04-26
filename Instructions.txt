@@ -20,6 +20,5 @@ transportation from airport / train station to hotels.
 Folder "venue":
 Venue & Direction page. Includes: campus map, 
 guide to conference venue (and MTR & Alipay guide).
-When embed google map, set google language to English.
-The embed link can be found below:
+The embed link for google map can be found below:
 https://www.embed-map.com/
