@@ -2,6 +2,9 @@
 -  Instructions for folders, files and their content.  -
 ----------------------------------------------------------
 
+Website link:
+https://hkubs-stat.github.io/HKU-2024-Summer-Workshop/
+
 "index.html" out of folders: Home page.
 
 Folder "assets" includes (but not limited to):
