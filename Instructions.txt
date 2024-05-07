@@ -5,6 +5,8 @@
 Website link:
 https://hkubs-stat.github.io/HKU-2024-Summer-Workshop/
 
+Use "Sublime Text" to edit html files.
+
 "index.html" out of folders: Home page.
 
 Folder "assets" includes (but not limited to):
