@@ -3,7 +3,7 @@
 
 <head>
     <base href="..">
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="assets/logo-1.png"/>
     <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
     <meta name="description" content="SEEDS Conference">
     <meta name="resource-type" content="document">
@@ -14,37 +14,41 @@
     HeadColor{
         color:yellow;
     }
+    .Programs tr:nth-child(odd) {
+            background-color: #e5ecf9;
+    }
     </style>
 </head>
 
 <body>
 
     <div class="banner">
-        <img src="assets/hku_banner.jpg" alt="SEEDS Conference">
-
-        <div class="bottom-right">
-            <HeadColor>June 3, 2024 <br> The University of Hong Kong, Hong Kong</HeadColor>
+        <img src="assets/hku_banner.jpg" alt="SDA Workshop Banner" width="100%" height="auto">
+        
+        <div class="bottom-right" style="font-size:4vmin;">
+            <HeadColor>HKU 2024 Summer Workshop on Statistics and Data Analytics <br> June 3, 2024 <br> The University of Hong Kong, Hong Kong </HeadColor>
         </div>
     </div>
 
     <table class="navigation">
         <tr>
-            <td class="navigation">
-                <a title="Conference Home Page" href=".">Home</a>
+            <td class="navigation" style="font-size:4vmin;width: 20%">
+                <a class="current" title="Conference Home Page" href=".">Home</a>
             </td>
-            <td class="navigation">
-                <a class="current" title="Sessions" href="sessions">Program</a>
+            <td class="navigation" style="font-size:4vmin;width: 25%">
+                <a title="Sessions" href="sessions">Program</a>
             </td>
-            <td class="navigation">
+            <td class="navigation" style="font-size:4vmin;width: 25%">
                 <a title="Conference venue" href="venue">Venue & Direction</a>
             </td>
-            <td class="navigation">
-                <a title="Conference Schedule" href="Transportation">Accommodation</font>
-                </a> 
+
+            
+            <td class="navigation" style="font-size:4vmin;width: 30%">
+                <a title="Conference Schedule" href="Transportation">Accommodation</a> 
             </td>
+
         </tr>
     </table>
-
 
 
     <table>
@@ -55,7 +59,9 @@
         </tr>
     </table>
 
-
+    <p style="font-size:2.3vmin;line-height:1.5;">
+        A PDF version of this page can be found <a href="assets/2024_Conference_Program_HKUBS_Stat.pdf/">here</a>.
+    </p>
 
     <table>
         <tr>
@@ -75,112 +81,98 @@
     </table>
 
 
-    <table id="Registration">
+    <table id="Morning" class="Programs" style="width:85%;">
         <tr>
-            <td class="date" rowspan="2" style="font-size:2.3vmin;">
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 08:30 - 09:00
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 Registration
             </td>
+            <td>
+            </td>
         </tr>
-    </table>
-
-
-    <table id="Opening">
         <tr>
-            <td class="date" rowspan="2" style="font-size:2.3vmin;">
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 09:00 - 09:10
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 Opening
             </td>
+            <td>
+            </td>
         </tr>
-    </table>
-
-
-    <table id="Iain Johnstone">
         <tr>
-            <td class="date" rowspan="3" style="font-size:2.3vmin;">
+            <td class="sessions" colspan="4" style="font-size:2.3vmin;">
+                Session 1, Chair: TBD
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 09:10 - 09:50
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 <a href="sessions#Iain_Johnstone_abstract">Expectation Propagation and Maximum Likelihood in Generalized Linear Mixed Models</a><br>
             </td>
-        </tr>
-        <tr>
             <td class="abstract" style="font-size:2.3vmin;">
               Iain Johnstone (Stanford University)
             </td>
         </tr>
-    </table>
-
-
-    <table id="Photo">
         <tr>
-            <td class="date" rowspan="2" style="font-size:2.3vmin;">
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 09:50 - 10:00
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 Photo
             </td>
+            <td>
+            </td>
         </tr>
-    </table>
-
-
-    <table>
         <tr>
-            <td class="date" rowspan="2" style="font-size:2.3vmin;">
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 10:00 - 10:30
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 Coffee Break
             </td>
+            <td>
+            </td>
         </tr>
-    </table>
-
-
-    <table id="Minge_Xie">
         <tr>
-            <td class="date" rowspan="3" style="font-size:2.3vmin;">
+            <td class="sessions" colspan="4" style="font-size:2.3vmin;">
+                Session 2, Chair: TBD
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 10:30 - 11:10
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 <a href="sessions#Minge_Xie_abstract">Repro Samples Method and Principled Random Forests</a><br>
             </td>
-        </tr>
-        <tr>
             <td class="abstract" style="font-size:2.3vmin;">
                 Min-ge Xie (Rutgers University)
             </td>
         </tr>
-    </table>
-
-
-    <table id="Qiman_Shao">
         <tr>
-            <td class="date" rowspan="3" style="font-size:2.3vmin;">
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 11:10 - 11:50
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 <a href="sessions#Qiman_Shao_abstract">High Dimensional Gaussian Approximation</a><br>
             </td>
-        </tr>
-        <tr>
             <td class="abstract" style="font-size:2.3vmin;">
                 Qiman Shao (Southern University of Science and Technology)
             </td>
         </tr>
-    </table>
-
-
-    <table>
         <tr>
-            <td class="date" rowspan="2" style="font-size:2.3vmin;">
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 11:50 - 14:30
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 Lunch Break
+            </td>
+            <td>
             </td>
         </tr>
     </table>
@@ -205,107 +197,89 @@
     </table>
 
 
-    <table id="Qiwei_Yao">
+    <table id="Afternoon" class="Programs" style="width:85%;">
         <tr>
-            <td class="date" rowspan="3" style="font-size:2.3vmin;">
+            <td class="sessions" colspan="4" style="font-size:2.3vmin;">
+                Session 3, Chair: TBD
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 14:30 - 15:10
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 <a href="sessions#Qiwei_Yao_abstract">Autoregressive Networks with Dependent Edges</a><br>
             </td>
-        </tr>
-        <tr>
             <td class="abstract" style="font-size:2.3vmin;">
                 Qiwei Yao (The London School of Economics and Political Science)
             </td>
         </tr>
-    </table>
-
-
-
-    <table id="Yongtao_Guan">
         <tr>
-            <td class="date" rowspan="3" style="font-size:2.3vmin;">
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 15:10 - 15:50
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 <a href="sessions#Yongtao_Guan_abstract">Bias-Correction and Test for Mark-Point Dependence with Replicated Marked Point Processes</a><br>
             </td>
-        </tr>
-        <tr>
             <td class="abstract" style="font-size:2.3vmin;">
                 Yongtao Guan (The Chinese University of Hong Kong, Shenzhen)
             </td>
         </tr>
-    </table>
-
-
-     <table>
         <tr>
-            <td class="date" rowspan="2" style="font-size:2.3vmin;">
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 15:50 - 16:20
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 Coffee Break
             </td>
+            <td>
+            </td>
         </tr>
-    </table>
-
-
-    <table id="Runze_Li">
         <tr>
-            <td class="date" rowspan="3" style="font-size:2.3vmin;">
+            <td class="sessions" colspan="4" style="font-size:2.3vmin;">
+                Session 4, Chair: TBD
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 16:20 - 17:00
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 <a href="sessions#Runze_Li_abstract">Model-Free Statistical Inference on High-Dimensional Data</a><br>
             </td>
-        </tr>
-        <tr>
             <td class="abstract" style="font-size:2.3vmin;">
                 Runze Li (Pennsylvania State University)
             </td>
         </tr>
-    </table>
-
-
-
-    <table id="Yingying_Li">
         <tr>
-            <td class="date" rowspan="3" style="font-size:2.3vmin;">
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 17:00 - 17:40
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 <a href="sessions#Yingying_Li_abstract">Learning the Stochastic Discount Factor</a><br>
             </td>
-        </tr>
-        <tr>
             <td class="abstract" style="font-size:2.3vmin;">
                 Yingying Li (Hong Kong University of Science and Technology)
             </td>
         </tr>
-    </table>
-
-
-    <table id="Closing">
         <tr>
-            <td class="date" rowspan="2" style="font-size:2.3vmin;">
+            <td class="date" rowspan="1" style="font-size:2.3vmin;">
                 17:40 - 17:50
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
-                Closing              
+                Closing       
+            </td>
+            <td>
             </td>
         </tr>
-    </table>
-
-
-    <table id="Dinner">
         <tr>
             <td class="date" rowspan="2" style="font-size:2.3vmin;">
                 17:50 - 20:30    
             </td>
             <td class="abstract" style="font-size:2.3vmin;">
                 Banquet (invitation only)              
+            </td>
+            <td>
             </td>
         </tr>
     </table>
@@ -359,10 +333,9 @@
         </tr>
         <tr>
             <td class="abstract" style="font-size:2.3vmin;">
-                Repro Samples method introduces a fundamentally new inferential framework that can be used to effectively address frequently encountered, yet highly non-trivial and complex inference problems involving discrete or non-numerical unknown parameters and/or non-numerical data. In this talk, we present a set of key developments in the repro samples method and use them to develop a novel machine learning ensemble tree model, termed principled random forests. Specifically, repro samples are artificial samples that are reproduced by mimicking the genesis of observed data. Using the repro samples and inversion techniques stemmed from fiducial inference, we can establish a confidence set for the underlying (‘true’) tree model that generated, or approximately generated, the observed data. <br />
-                We then obtain a tree ensemble model using the confidence set, from which we derive our inference. Our development is principled and interpretable since, firstly, it is fully theoretically supported and provides frequentist performance guarantees on both inference and predictions; and secondly, the approach only assembles a small set of trees in the confidence set and thereby the model used is interpretable. The development is further extended to handle a causal inference setting of heterogeneous treatment effects. Numerical results have demonstrated superior performance of our proposed approach than several existing poste selection, random forest, bagging, and causal trees ensemble methods. <br />
-                The repro samples method provides a new toolset for developing interpretable AI and for helping address the blackbox issues in complex machine learning models.  The development of the principle random forest is our first attempt on this direction. 
-
+                Repro Samples method introduces a fundamentally new inferential framework that can be used to effectively address frequently encountered, yet highly non-trivial and complex inference problems involving discrete or non-numerical unknown parameters and/or non-numerical data. In this talk, we present a set of key developments in the repro samples method and use them to develop a novel machine learning ensemble tree model, termed principled random forests. Specifically, repro samples are artificial samples that are reproduced by mimicking the genesis of observed data. Using the repro samples and inversion techniques stemmed from fiducial inference, we can establish a confidence set for the underlying (‘true’) tree model that generated, or approximately generated, the observed data. <br>
+                We then obtain a tree ensemble model using the confidence set, from which we derive our inference. Our development is principled and interpretable since, firstly, it is fully theoretically supported and provides frequentist performance guarantees on both inference and predictions; and secondly, the approach only assembles a small set of trees in the confidence set and thereby the model used is interpretable. The development is further extended to handle a causal inference setting of heterogeneous treatment effects. Numerical results have demonstrated superior performance of our proposed approach than several existing poste selection, random forest, bagging, and causal trees ensemble methods. <br> 
+                The repro samples method provides a new toolset for developing interpretable AI and for helping address the blackbox issues in complex machine learning models.  The development of the principle random forest is our first attempt on this direction. 
             </td>
         </tr>
     </table>
